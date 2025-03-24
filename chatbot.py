@@ -4,6 +4,7 @@ import streamlit as st
 import chromadb
 from langchain.prompts import PromptTemplate
 from langchain_groq import ChatGroq
+import sqlite3
 from dotenv import load_dotenv
 
 
